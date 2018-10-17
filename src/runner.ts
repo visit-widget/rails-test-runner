@@ -55,9 +55,9 @@ export default class Runner {
     const currentPosition: Position = window.activeTextEditor.selection.active;
     const lineNumber = retrieveLineNumber ? currentPosition.line + 1 : 0;
 
-    if (fileName.indexOf('_spec.rb') === -1) {
+    if (fileName.indexOf('_test.rb') === -1) {
       window.showInformationMessage(
-        'File does not appear to be a spec file (missing _spec in the filename?)',
+        'File does not appear to be a spec file (missing _test in the filename?)',
       );
       return;
     }

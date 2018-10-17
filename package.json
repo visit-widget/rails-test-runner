@@ -32,12 +32,16 @@
         "railsTestRunner.rspecCommand": {
           "default": "bundle exec rspec",
           "description": "Specifies the command to use when running rspec tests",
-          "type": ["string"]
+          "type": [
+            "string"
+          ]
         },
         "railsTestRunner.focusTerminal": {
           "default": true,
           "description": "Should the terminal be focused on each run?",
-          "type": ["boolean"]
+          "type": [
+            "boolean"
+          ]
         },
         "railsTestRunner.clearTerminal": {
           "default": true,
